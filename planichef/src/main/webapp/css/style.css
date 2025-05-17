@@ -1,43 +1,105 @@
+/* Variáveis de cores */
+:root {
+    --primary-color: #B78F64;      /* Chocolate */
+    --secondary-color: #713E18;    /* Syrup */
+    --accent-color: #F4C07D;       /* Maple */
+    --background-color: #D8D8D0;   /* Honey */
+    --text-color: #382615;         /* Waffle */
+    --shadow-color: rgba(56, 38, 21, 0.1);
+}
+
 /* Estilos gerais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 /* Navbar */
 .navbar {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: var(--accent-color);
+    box-shadow: 0 2px 4px var(--shadow-color);
 }
 
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
+    color: var(--secondary-color) !important;
 }
 
 /* Cards */
 .card {
     transition: transform 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px var(--shadow-color);
+    border: none;
+    background-color: white;
+    border-radius: 8px;
 }
 
 .card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px var(--shadow-color);
 }
 
 /* Botões */
 .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
     padding: 0.5rem 1.5rem;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
 }
 
 /* Footer */
 footer {
-    border-top: 1px solid #dee2e6;
+    background-color: var(--accent-color);
+    border-top: 1px solid var(--primary-color);
+    color: var(--text-color);
 }
 
 /* Formulários */
+.form-control {
+    border: 1px solid var(--primary-color);
+    background-color: white;
+}
+
 .form-control:focus {
-    border-color: #0d6efd;
-    box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.2rem rgba(113, 62, 24, 0.25);
+}
+
+/* Links */
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--secondary-color);
 }
 
 /* Responsividade */
