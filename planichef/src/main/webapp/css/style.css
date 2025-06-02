@@ -1,11 +1,11 @@
-/* Variáveis de cores */
 :root {
-    --primary-color: #B78F64;      /* Chocolate */
-    --secondary-color: #713E18;    /* Syrup */
-    --accent-color: #F4C07D;       /* Maple */
-    --background-color: #D8D8D0;   /* Honey */
-    --text-color: #382615;         /* Waffle */
-    --shadow-color: rgba(56, 38, 21, 0.1);
+    --primary-color: #F1C776;      /* Amarelo PLANI */
+    --secondary-color: #B1212A;    /* Vermelho CHEF */
+    --accent-color: #D8333C;       /* Vermelho morango */
+    --background-color: #ffffff;   /* branco */
+    --text-color: #3A1D14;         /* Marrom escuro */
+    --highlight-color: #8BA65E;    /* Verde limão */
+    --shadow-color: rgba(58, 29, 20, 0.1);
 }
 
 /* Estilos gerais */
@@ -83,7 +83,7 @@ footer {
 
 .form-control:focus {
     border-color: var(--secondary-color);
-    box-shadow: 0 0 0 0.2rem rgba(113, 62, 24, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(177, 33, 42, 0.25);
 }
 
 /* Links */
@@ -107,8 +107,8 @@ h1, h2, h3, h4, h5, h6 {
     .container {
         padding: 0 15px;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-} 
+}

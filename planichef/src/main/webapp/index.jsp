@@ -9,36 +9,8 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="index.jsp">PlaniChef</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="cardapio.jsp">Meu Cardápio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="receitas.jsp">Receitas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="lista-compras.jsp">Lista de Compras</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.jsp">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cadastro.jsp">Cadastro</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+ <!-- navbar -->
+<%@ include file="WEB-INF/jspf/navbar.jspf" %>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
@@ -50,7 +22,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="images/hero-image.jpg" alt="PlaniChef" class="img-fluid rounded">
+                <img src="images/Logo.jpg" alt="PlaniChef" class="img-fluid rounded">
             </div>
         </div>
 
@@ -82,11 +54,8 @@
         </div>
     </div>
 
-    <footer class="bg-light mt-5 py-3">
-        <div class="container text-center">
-            <p>&copy; 2024 PlaniChef. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+    <!-- Footer -->
+<%@ include file="/WEB-INF/jspf/footer.jspf" %>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

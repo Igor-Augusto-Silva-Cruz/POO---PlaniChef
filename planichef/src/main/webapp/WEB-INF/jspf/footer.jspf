@@ -1,0 +1,25 @@
+<%-- para incluir esse jspf na pagina, só copiar ai e jogar la :) 
+
+<!-- Navbar -->
+<%@ include file="WEB-INF/jspf/footer.jspf" %>   --%>
+
+
+<footer class="bg-light mt-5 py-4 border-top">
+    <div class="container text-center">
+        <p>&copy; 2025 PlaniChef. Todos os direitos reservados.</p>
+
+        <p>
+            <a href="https://github.com/Igor-Augusto-Silva-Cruz/POO---PlaniChef/blob/main/planichef/README.md" target="_blank">
+                Pagina do projeto no GitHub
+            </a>
+        </p>
+
+        <p>
+            <a href="sobre.jsp">Sobre</a> |
+            <a href="termos.jsp">Termos de Uso</a> |
+            <a href="privacidade.jsp">Poli­tica de Privacidade</a>
+        </p>
+
+        <p class="text-muted fst-italic">Facilitando o planejamento das suas refeições.</p>
+    </div>
+</footer>
