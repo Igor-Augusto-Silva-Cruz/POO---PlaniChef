@@ -22,11 +22,7 @@ cd planichef
 - Configure as credenciais no arquivo `src/main/resources/application.properties`
 
 3. Configure a chave da API Gemeni:
-- Obtenha uma chave de API em https://platform.openai.com
-- Configure a variável de ambiente:
-```bash
-export OPENAI_API_KEY=sua-chave-api
-```
+
 
 4. Compile e execute a aplicação:
 ```bash
