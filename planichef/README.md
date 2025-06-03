@@ -7,7 +7,7 @@ PlaniChef é uma aplicação web de planejamento de cardápio que utiliza inteli
 - Java 11 ou superior
 - Maven
 - MySQL 8.0 ou superior
-- Chave de API da OpenAI
+- Chave de API da Google Gemeni
 
 ## Configuração
 
@@ -21,7 +21,7 @@ cd planichef
 - Crie um banco de dados chamado `planichef`
 - Configure as credenciais no arquivo `src/main/resources/application.properties`
 
-3. Configure a chave da API OpenAI:
+3. Configure a chave da API Gemeni:
 - Obtenha uma chave de API em https://platform.openai.com
 - Configure a variável de ambiente:
 ```bash
@@ -47,7 +47,7 @@ java -jar target/planichef-1.0-SNAPSHOT-runner.jar
 - Java EE (Jakarta EE)
 - Hibernate/JPA
 - MySQL
-- OpenAI API (GPT-3.5)
+- API Gemeni
 - Maven
 - Lombok
 
