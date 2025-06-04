@@ -1,6 +1,6 @@
 <%-- para incluir esse jspf na pagina, só copiar ai e jogar la :) 
 
-<!-- Footer -->
+<!-- navbar -->
 <%@ include file="WEB-INF/jspf/navbar.jspf" %>   --%>
 
 
